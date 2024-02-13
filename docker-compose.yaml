@@ -1,0 +1,8 @@
+services:
+  app:
+    image: yadnyaadhiya/hw.jar
+    ports:
+      - 127.0.0.1:8088:9093
+    working_dir: /app
+    volumes:
+      - ./:/app
